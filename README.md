@@ -53,7 +53,7 @@ Commands
 -----
 
 List of valid LoGiX commands and their arguments.
-Mandatory arguments are written with [], and optional arguments are written with ().
+Mandatory arguments are written with `[]`, and optional arguments are written with `()`.
    - `exit`
    - `undo     (DEPTH)`
    - `help     (MODULE)`
