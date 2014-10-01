@@ -1,0 +1,4 @@
+True1 implies Chest1
+True2 implies Chest1
+True3 implies Chest3
+!exactly 2 of True1, True2, True3

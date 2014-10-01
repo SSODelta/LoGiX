@@ -1,0 +1,4 @@
+iff True1 then Treasure2
+iff True2 then not Treasure3
+iff True3 then not Treasure4
+minimum 3 of True1, True2, True3
