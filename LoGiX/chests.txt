@@ -1,0 +1,9 @@
+!obj Kat Zorba,NormalKat,OrangeKat
+!rel BedreEnd(Kat, Kat)
+
+!BedreEnd(x,y) and BedreEnd(y,z) implies BedreEnd(x,z)
+!def BedreEnd(NormalKat,OrangeKat)
+!def BedreEnd(Zorba,NormalKat)
+
+BedreEnd(Zorba,OrangeKat)?Det er han nemlig
+BedreEnd(OrangeKat,Zorba)?Det er noget BS

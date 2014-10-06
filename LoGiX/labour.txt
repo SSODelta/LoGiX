@@ -1,0 +1,2 @@
+if L or K then S
+if K then not L

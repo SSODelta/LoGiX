@@ -1,0 +1,50 @@
+|
+Welcome to LoGiX v1.0.2 - the propositional logic verifier.
+LoGiX can be used to verify whether or not certain logical expressions are true.
+You can supply LoGiX with premises, and determine whether or not a logical expression is a semantic consequence of the premises.
+For a list of commands, type 'list command'.
+Created by SSODelta (Nikolaj I. Schwartzbach)
+|exit|
+Usage: exit
+Exits the program, and stops the command listener.
+|reset|
+Usage: reset
+Clears the list of accepted premises.
+|undo|
+Usage: undo (DEPTH)
+Reverts the state of the program to what it was DEPTH commands ago.
+|help|
+Usage: help (MODULE)
+Displays general help if MODULE is blank, and shows information about MODULE if filled in.
+For a list of help modules, type 'list helpmodules'.
+|list|
+Usage: list [MODULE]
+Displays the list contained in MODULE. For example 'list commands', which shows a list of all valid commands.
+|def|
+Usage: def [EXPRESSION]
+Adds EXPRESSION as a new accepted premise in the list of premises.
+|exactly|
+Usage: exactly [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+A shorthand expression, which is only true if exactly NUMBER of PREMISE1, PREMISE2,... PREMISE_N are true.
+|minimum|
+Usage: minimum [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+A shorthand expression, which is only true if at least NUMBER of PREMISE1, PREMISE2, ... PREMISE_N are true.
+|maximum|
+Usage: maximum [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+A shorthand expression, which is only true if at most NUMBER of PREMISE1, PREMISE2, ... PREMISE_N are true.
+|example|
+Usage: example [FALSE/TRUE] (NUMBER) [EXPRESSION]
+Provides an example of EXPRESSION being FALSE/TRUE given the premises.
+NUMBER is an optional argument, which returns a different example (if available).
+|test|
+Usage: test [EXPRESSION1] with [EXPRESSION2]
+Tests whether or not EXPRESSION1 has the same truth table (is equivalent to) as EXPRESSION2.
+|rpn|
+Usage: rpn [EXPRESSION]
+Converts EXPRESSION to Reverse Polish Notation using the Shunting Yard-algorithm.
+|?|
+Usage: ? [EXPRESSION]
+Determines whether or not EXPRESSION is a semantic consequence (always true) given the premises.
+|num|
+Usage: num [EXPRESSION]
+Shows the fraction of cases in which EXPRESSION is true given the premises.

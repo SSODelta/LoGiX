@@ -1,0 +1,7 @@
+!!
+True1 biimplies not Treasure1
+True2 biimplies Treasure3
+True3 biimplies Treasure4
+True4 biimplies True2
+exactly 1 of Treasure1, Treasure3, Treasure4
+exactly 2 of True1, True2, True3, True4

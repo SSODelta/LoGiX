@@ -1,0 +1,4 @@
+iff True1 then Treasure2
+iff True2 then Treasure2
+iff True3 then Treasure4
+exactly 2 of True1,True2,True3

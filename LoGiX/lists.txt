@@ -1,0 +1,24 @@
+identifiers|
+List of valid identifiers (seperated by comma ,):
+   not, and, or, implies, nand, bi-implies, nor, xor
+|command|
+List of valid commands and their arguments.
+Mandatory arguments are written with [], and optional arguments are written with ().
+   - exit
+   - undo     (DEPTH)
+   - help     (MODULE)
+   - list     [MODULE]
+   - def      [EXPRESSION]
+   - exactly  [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+   - minimum  [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+   - maximum  [NUMBER] of [PREMISE1], (PREMISE2), ... (PREMISE_N)
+   - example  [FALSE/TRUE] (NUMBER) [EXPRESSION]
+   - test     [EXPRESSION1] with [EXPRESSION2]
+   - ?        [EXPRESSION]
+   - num      [EXPRESSION]
+|helpmodules|
+List of valid help modules (seperated by comma ,). Note that all commands are valid help modules (example: 'help undo'):
+   - syntax
+|modules|
+List of valid help modules (seperated by comma ,):
+   - identifiers, command, constants, helpmodules, modules

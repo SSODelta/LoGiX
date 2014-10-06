@@ -1,0 +1,27 @@
+!!
+#All the dated letters in this room are written on blue paper.
+if DatedLetter then BluePaper
+
+#None of them are in black ink, except those that are written in the third person.
+if not ThirdPerson then not BlackInk
+
+#I have not filed any of those that I can read.
+if CanRead then not Filed
+
+#None of those that are written on one sheet are undated.
+if OneSheet then DatedLetter
+
+#All of those that are not crossed out are in black ink.
+if not Crossed then BlackInk
+
+#All of those that are written by Brown begin with "Dear Sir."
+if Brown then DearSir
+
+#All of those that are written on blue paper are filed.
+if BluePaper then Filed
+
+#None of those that are written on more than one sheet are crossed out.
+if not OneSheet then not Crossed
+
+#None of those that begin with "Dear sir" are written in the third person.
+if DearSir then not ThirdPerson

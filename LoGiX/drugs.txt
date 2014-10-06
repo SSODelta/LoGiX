@@ -1,0 +1,9 @@
+!!
+TrueSam biimplies MichaelDrug xor BillDrug
+TrueMichael biimplies RichardDrug xor SamDrug
+TrueBill biimplies MattDrug xor MichaelDrug
+TrueRichard biimplies BillDrug xor MattDrug
+TrueMatt biimplies BillDrug xor RichardDrug
+exactly 1 of TrueSam, TrueMichael, TrueBill, TrueRichard, TrueMatt
+exactly 1 of MichaelDrug, BillDrug, RichardDrug, SamDrug, MattDrug
+RichardDrug implies BillDrug
